@@ -2,37 +2,67 @@
 <html lang="es">
 <head>
     <title>Ejercicio 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Aqui hay referencias tipo links-->
-    
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Ubuntu:wght@400;700&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@400;900&family=Montserrat:wght@600&display=swap" rel="stylesheet">
     
 </head>
 <body>
-    <!--Aqui esta todo lo visual-->
-    <header>
-        Ciberseguridad
-    </header>
-
-    <div>
-        <h1>Club de Software</h1>
-        <h2>Ciberseguridad ESPE</h2>
-
+    <div class="headerContainer" onscroll="moveImage()" style = "position:relative">
+        <img class="fondo" src="Img/FondoCTFd8.jpg" alt="Imagen para el scroll horizontal" id="parallaxImage">
+        <div class="encabezado">
+            <div class="contenedor-imagenes" style="position: absolute;">
+                <img src="Img/Marca secundaria color azul.png" alt="Imagen 1" width="750" >
+                <img src="Img/LobitoLogo.png" width="220" alt="Imagen 2">
+            </div>
+            <div class="Tema">
+                <h2>CIBERSEGURIDAD</h2>
+                <h2>CIBERSEGURIDAD</h2>
+            </div>
+        </div><br/><br/>
+        <hr width = "50%"/><br/>
+        <div class="content">
+            <div class="container">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="Img/CiberLogo.jpg" alt="">
+                    </div>
+                    <div class="contenido">
+                        <h2>Club Desarrollo Software</h2>
+                        <p>Lorem ipsum... por llenar</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="Img/ClubLogo.jpg" alt="">
+                    </div>
+                    <div class="contenido">
+                        <h2>Area de Ciberseguridad</h2>
+                        <p>Lorem ipsum... por llenar</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="Img/AprendeLogo.jpg" alt="">
+                    </div>
+                    <div class="contenido">
+                        <h2>¡Aprende con Nosotros!</h2>
+                        <p>Lorem ipsum... por llenar</p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                Contact us
+            </footer>
+        </div>
     </div>
-
-    <section>
-        <article>
-            Conocenos
-        </article> 
-    </section>
-
-    
-    
-
-    <!--<img src="Img/OIPdad.jpeg"/>-->
-    <img src="Img/windows.png"/>
-    <img src="Img/Mi_pana_miguel.PNG.png"/>
-    
-    <footer>
-        Contact us
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
