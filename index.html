@@ -15,22 +15,19 @@
     
 </head>
 <body>
-    <div class="headerContainer" onscroll="moveImage()" style = "position:relative">
+    <div class="headerContainer" onscroll="moveImage()">
         <img class="fondo" src="Img/FondoCTFd8.jpg" alt="Imagen para el scroll horizontal" id="parallaxImage">
-        <div class="encabezado">
-            <div class="contenedor-imagenes" style="position: absolute;">
-                <img src="Img/Marca secundaria color azul.png" alt="Imagen 1" width="750" >
-                <img src="Img/LobitoLogo.png" width="220" alt="Imagen 2">
-            </div>
-            <div class="Tema">
+        <header class="encabezado">
+            <section class="Tema">
                 <h2>CIBERSEGURIDAD</h2>
                 <h2>CIBERSEGURIDAD</h2>
-            </div>
-        </div><br/><br/>
+            </section>
+            <img id="desarrolloSoftw" src="Img/DesarrolloSW.png" alt="Imagen 1" >
+        </header><br/><br>
         <hr width = "50%"/><br/>
-        <div class="content">
+        <section class="content">
             <div class="container">
-                <div class="card">
+                <article class="card">
                     <div class="imgBx">
                         <img src="Img/CiberLogo.jpg" alt="">
                     </div>
@@ -38,8 +35,8 @@
                         <h2>Club Desarrollo Software</h2>
                         <p>Lorem ipsum... por llenar</p>
                     </div>
-                </div>
-                <div class="card">
+                </article>
+                <article class="card">
                     <div class="imgBx">
                         <img src="Img/ClubLogo.jpg" alt="">
                     </div>
@@ -47,8 +44,8 @@
                         <h2>Area de Ciberseguridad</h2>
                         <p>Lorem ipsum... por llenar</p>
                     </div>
-                </div>
-                <div class="card">
+                </article>
+                <article class="card">
                     <div class="imgBx">
                         <img src="Img/AprendeLogo.jpg" alt="">
                     </div>
@@ -56,12 +53,12 @@
                         <h2>¡Aprende con Nosotros!</h2>
                         <p>Lorem ipsum... por llenar</p>
                     </div>
-                </div>
+                </article>
             </div>
-            <footer>
-                Contact us
-            </footer>
-        </div>
+        </section>
+        <footer>
+            Contact us
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
